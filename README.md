@@ -39,6 +39,11 @@ $ ./follina_exploit.py
 
 - Change the document to RTF form
 
+## Works On
+
+- Office 19
+- Office 16 (probably) 
+
 ## References
 
 - https://doublepulsar.com/follina-a-microsoft-office-code-execution-vulnerability-1a47fce5629e
